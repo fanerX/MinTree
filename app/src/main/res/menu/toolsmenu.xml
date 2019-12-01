@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="afa">
+        <menu >
+            <!--定义一组单选菜单项-->
+            <group android:checkableBehavior="single">
+                <!--定义子菜单-->
+                <item android:id="@+id/red" android:title="color_red"/>
+
+                <item android:id="@+id/green" android:title="color_green"/>
+
+                <item android:id="@+id/blue" android:title="color_blue"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="width">
+
+        <menu >
+
+            <!--定义子菜单-->
+            <group>
+                <item android:id="@+id/width_1" android:title="width_1"/>
+                <item android:id="@+id/width_2" android:title="width_2"/>
+                <item android:id="@+id/width_3" android:title="width_3"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/clear" android:title="clear"/>
+    <item android:id="@+id/sava" android:title="save"/>
+</menu>
